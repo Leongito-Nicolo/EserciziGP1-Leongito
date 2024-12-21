@@ -40,8 +40,8 @@
 
         // 9. Creare una variabile short e verificare il suo range di valori.
         short smallNumber = 13354;
-        Console.WriteLine("Valore minimo di short: " + short.MinValue);
-        Console.WriteLine("Valore massimo di short: " + short.MaxValue + "\n\n");
+        Console.WriteLine("Minimum value of short: " + short.MinValue);
+        Console.WriteLine("Maximum value of short: " + short.MaxValue + "\n\n");
 
         // 10. Usare una variabile byte per rappresentare un numero tra 0 e 255.
         byte value = 255;
@@ -57,7 +57,7 @@
 
         // 13. Dichiarare una variabile di tipo var e verificare come il compilatore determina il tipo.
         var variable = 10;
-        Console.WriteLine("Tipo di variable: " + variable.GetType() + "\n\n");
+        Console.WriteLine("Type of variable: " + variable.GetType() + "\n\n");
 
         // 14. Dichiarare e usare variabili con valori predefiniti.
         int n1 = 2, n2 = 3;
